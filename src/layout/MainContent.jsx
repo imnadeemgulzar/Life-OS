@@ -1,8 +1,6 @@
-import React from 'react'
-
 const MainContent = () => {
   return (
-    <div>
+    <div className='bg-blue-200 w-full'>
       MainContent
     </div>
   )

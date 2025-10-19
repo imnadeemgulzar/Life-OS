@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Habits = () => {
+const HabitBar = () => {
   return (
     <div>
-      Habits
+      HabitBar
     </div>
   )
 }
 
-export default Habits
+export default HabitBar

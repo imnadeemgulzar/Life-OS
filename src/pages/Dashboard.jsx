@@ -110,7 +110,7 @@ const Dashboard = ({notes,setNotes,habits,setHabits,tasks,setTasks}) => {
                 onChange={(e) => setTaskStatus(e.target.value)}
               >
                 <option value="pending">Pending</option>
-                <option value="in Progress">In Progress</option>
+                <option value="in progress">In Progress</option>
                 <option value="done">Done</option>
               </select>
             )}

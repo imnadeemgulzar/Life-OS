@@ -1,20 +1,7 @@
 import { useState } from "react";
 import SummaryCard from "../components/SummaryCard";
-const Dashboard = () => {
-  const [tasks, setTasks] = useState([
-    { id: 1, title: "Task-1", status: "pending" },
-  ]);
-  const [habits, setHabits] = useState([
-    { id: 1, title: "habit-1", progress: 0.1 },
-  ]);
-  const [notes, setNotes] = useState([
-    {
-      id: 1,
-      title: "note-1",
-      snippet:
-        "note-1 text  cum repudiandae labore, maxime dolorem animi laboriosam ullam ipsa nostrum voluptatibus odit",
-    },
-  ]);
+const Dashboard = ({notes,setNotes,habits,setHabits,tasks,setTasks}) => {
+  
   const [activeCard, setActiveCard] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [openNoteId, setOpenNoteId] = useState(null);
